@@ -1,0 +1,87 @@
+html, body {
+	color: #505050;
+	line-height: 1.75em;/*设置行高为字体大小的 1.75 倍*/
+	background: #ebebeb;
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+
+/* header */
+
+/*====================================================
+header
+====================================================*/
+.main-header {
+	padding-top: 62px;/* 开始显示上部分 */
+	padding-bottom: 62px;/* 开始显示下部分 */
+	background-repeat: no-repeat;/* 图片没变化 */
+	background-position: center 20%; /* 图片居中显示并且两边留白*/
+	background-size: cover;/* 图片恢复满屏 */
+}
+.main-header {
+	text-align: center; /*图片开始居中*/
+}
+.main-header .branding {
+	font-size: 3.5em; /*提升了 a 标签的高度*/
+	color: #303030;
+}
+.main-header .branding:hover {
+	text-decoration: none;
+}
+.main-header .branding img {
+	max-width: 100%;
+}
+
+/* main-navigation */
+
+/*====================================================
+header
+====================================================*/
+.main-navigation {
+	text-align: center;/*设置 UL 元素居中*/
+	background: #ffffff;
+	border-top: 1px solid #ebebeb;
+	margin-bottom: 35px;/*设置底部外部留白*/
+	border-bottom: 2px solid #e1e1e1;
+}
+
+.main-navigation .menu li.nav-current {
+	border-bottom: 2px solid #e67e22; /*设置当前选中菜单的底部线条颜色 形成选中效果*/
+	margin-bottom: -2px;
+}
+.main-navigation .menu {
+	padding: 0;
+	margin: 0;
+}
+.main-navigation .menu li {
+	display: inline-block; /*修改元素块属性， ui.li 横排*/
+}
+.main-navigation .menu li a {
+	color: #505050;
+	line-height: 4em; /*提升导航条高度*/
+	display: block;
+	padding: 0 21px;
+	outline-style: none;
+	text-decoration: none;
+}
+.main-navigation .menu li a:hover {
+	color: #FF380A; /*设置鼠标移动到元素上的颜色提示*/
+}
+@media (max-width:767px) {
+	.main-navigation {
+		text-align: left;
+	}
+	.main-navigation .menu li {
+	display: block; /*修改元素块属性， ui.li 横排*/
+}
+}
+/*navbar*/
+.navbar-header {
+  text-align: center;
+}
+.navbar-header i {
+	height: 56px;
+	line-height: 56px;
+	font-size: 2em;
+	cursor: pointer;
+}
