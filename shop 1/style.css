@@ -1,0 +1,25 @@
+#navBar{
+  position: relative;
+  top: 10px;
+  z-index: 555;
+  width: 600px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+#navBar li{
+  float: right;
+}
+
+#cycleImage{
+	position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0px;
+}
+#cycleImage img{
+	  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
