@@ -1,0 +1,69 @@
+a, a:hover {
+	text-decoration: none;
+	color: silver;
+}
+.menuSection {
+	border: 3px solid #D2D2D2;
+	border-bottom: 2px solid #D2D2D2;
+}
+.menu {
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.menu_name {
+	text-overflow: ellipsis;
+}
+.menu_price, .menu_type, .menu_price_number {
+	font-size: 0.7em;
+	color: silver;
+}
+.menu_type select {
+	border: none;
+}
+.container {
+	padding-top: 5px;
+}
+.col-xs-6 {
+	padding: 0;
+}
+.imgContainer {
+	min-height: 100px;
+	margin: 3px;
+}
+img {
+	height: 200px;
+	width: 100%;
+}
+.menuinfo {
+	height: 200px;
+	display: inline-block;
+	position: relative;
+}
+.selectNumber input, .selectNumber i {
+	color: red;
+}
+.selectNumber {
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+input {
+	position: relative;
+	top: 1px;
+	border-radius: 30px;
+	text-align: center;
+	border: 1px solid #C7C7C7;
+	height: 22px;
+	width: 100px;
+}
+.selectCount_Left {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.selectCount_Right {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
